@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styling.css">
   </head>
   <body>
       <section class="intro">
 
-        <div class="container-fluid">
-
-    <nav class="navbar navbar-expand-lg bg-light">
+          <div class="topbodydiv">
+            <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-              <img src="./images/Binance-Horizontal-Black-Logo.wine.png" alt="" width="120" height="80">
+              <img src="./images/22aee16e43e33d890ee49cfcebbe3d94.jpg" alt="" width="150" height="100">
             </a>
           </div>
         <div class="container-fluid ">
@@ -26,31 +29,160 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item border-end">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item border-end">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+             
+              <li class="nav-item border-end">
+                <a class="nav-link pricing" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link pricing" href="#test">Reviews</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="row secondsection">
+    </div>
+    </div>
+    <div class="container-fluid">
+      <div id="home" class="row secondsection">
           <div class="col-md-6">
           <h1 class="tagline">Cryptocurrency just got even better.</h1>
-          <p>Exchange your crypto assets anywhere you want.
+          <p class="p">Exchange your crypto assets anywhere you want.
             Just use Binance just like thousands people and 
             make your life easier.</p>
             <button type="button" class="btn btn-dark">Get started</button>
             <button type="button" class="btn btn-outline-dark secondbutton">Quick intro</button>
           </div>
           <div class="col-md-6">
-          <img class="phone" src="./images/bgphone.png" alt="">
+          <img class="phone" src="./images/phonebg.png" alt="">
           </div>
 
+      </div>
+      <div class="row rowdiv" id="features">
+        <div class="col-lg-4 col-md-6">
+        <img class="nft img1" src="./images/nft.png" alt="">
+        <h1 class="fontsize">Dive into the world of NFTs</h1>
+        <p>Open rare Mystery Boxes, explore IGOs, Fan Tokens, and more with Binance NFT.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+       
+        <h1 class="fontsize">Grow your business with Binance Pay</h1>
+        <p>Reach more customers as you pay and get paid in crypto with our borderless payment technology on Binance Pay & Binance Marketplace.</p>
+        <img class="binancepay" src="./images/binance-pay.png" alt="">
+      </div>
+      <div class="col-lg-4">
+ <img class="binanceearn" src="./images/binance-earn.png" alt="">
+ <h1 class="fontsize binanceearntag">Binance Earn</h1>
+ <p>Hold your crypto funds and start earning.</p>
+      </div>
+      </div>
+      <div class="row row2" id="pricing">
+        <div class="card col-lg-4 col-md-6" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title text-center ">Base</h3>
+            <h2 class="card-subtitle mb-2 text-muted text-center">$39/Month</h2>
+            <ul class="list-group list-group-flush text">
+              <li class="list-group-item text-center">✓  All limited links</li>
+              <li class="list-group-item text-center">✓  Chat support</li>
+              <li class="list-group-item text-center">Own analytical platform</li>
+              <li class="list-group-item text-center">Unlimited users</li>
+              <li class="list-group-item text-center">Optimised hashtags</li>
+            </ul>
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark planbtn" type="button">Choose Plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-4 col-md-6" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title text-center ">Popular</h3>
+            <h2 class="card-subtitle mb-2 text-muted text-center">$99/Month</h2>
+            <ul class="list-group list-group-flush text">
+              <li class="list-group-item text-center">✓  All limited links</li>
+              <li class="list-group-item text-center">✓  Chat support</li>
+              <li class="list-group-item text-center">✓  Own analytical platform</li>
+              <li class="list-group-item text-center">Unlimited users</li>
+              <li class="list-group-item text-center">Optimised hashtags</li>
+            </ul>
+            <div class="d-grid gap-2">
+              <button class="btn btn-outline-dark planbtn" type="button">Choose Plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-4" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title text-center ">Enterprise</h3>
+            <h2 class="card-subtitle mb-2 text-muted text-center">$199/Month</h2>
+            <ul class="list-group list-group-flush text">
+              <li class="list-group-item text-center">✓  All limited links</li>
+              <li class="list-group-item text-center">✓  Chat support</li>
+              <li class="list-group-item text-center">✓  Own analytical platform</li>
+              <li class="list-group-item text-center">✓  Unlimited users</li>
+              <li class="list-group-item text-center">✓  Optimised hashtags</li>
+            </ul>
+            <div class="d-grid gap-2">
+              <button class="btn btn-dark planbtn" type="button">Choose Plan</button>
+            </div>
+          </div>
+        </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div>
+        <h1 class="header">Trusted and loved by the world's best.</h1>
+      </div>
+      <div id="test" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2500" pause="hover">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#test" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#test" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#test" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/testimonialbg.jpg" class="d-block w-100 img" alt="...">
+            <div class="carousel-caption d-none d-sm-block text-center">
+              <img class="profile" src="./images/steve-jobs.jpg" alt="">
+              <h1 >Steve Jobs</h1>
+              <p >“You can hire someone to drive a car for you, make money for you — but you can not rent someone to carry the disease for you. So invest in BINANCE.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/testimonialbg.jpg" class="d-block w-100 img" alt="...">
+            <div class="carousel-caption d-none d-sm-block">
+              <img class="profile" src="./images/black-black-and-white-the-weeknd-white-Favim.com-3294835.jpg" alt="">
+              <h1 >The Weeknd</h1>
+              <p>'Cause I got everything I wanted
+                Got the money, got the cars, got the ceiling with the stars
+                Got everything I wanted
+                But I'd be nothing without BINANCE.</p>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <img src="./images/testimonialbg.jpg" class="d-block w-100 img" alt="...">
+            <div class="carousel-caption d-none d-sm-block">
+              <img class="profile" src="./images/Ed3dd9oWoAELyvc.jpg" alt="">
+              <h1>Harry Styles</h1>
+              <p >Go home, get ahead, light-speed internet
+                I don't wanna talk about the way that it was
+                Leave America and trade crypto via BINANCE.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#test" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#test" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
       </section>

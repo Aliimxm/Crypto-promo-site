@@ -4,8 +4,10 @@
 }
 .tagline
 {
+    padding-top: 7%;
     font-size: 3.6rem;
     line-height:5.6rem;
+    
 }
 body
 {
@@ -35,14 +37,99 @@ a
 {
     height: 550px;
     width: 600px;
-    left: 650px;
+    left: 600px;
+    margin-bottom: 7%;
  
 }
 .border-end
 {
-    border-right: 4px solid black;
+    border-right: 1px solid grey;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+.border-bottom
+{
+    border-bottom: 5px solid black ;
 }
 .secondbutton
 {
     margin-left: 20px;
+}
+.carousel
+{
+    margin-top: 100px;
+    width: 100%;
+}
+.img
+{
+    width: 844px;
+    height: 454px;
+}
+.profile
+{
+    width: 150px;
+    height: 145px;
+    border-radius: 100%;
+    margin-bottom: 6%;
+}
+.topbodydiv
+{
+    background-color: black;
+    width: auto;
+}
+.pricing
+{
+    margin-left: 15px;
+}
+.header
+{
+    position: relative;
+    left: 26%;
+    top: 75px;
+}
+.nft
+{
+    width: 336px;
+    height: 217px;
+}
+.fontsize
+{
+    font-size: 35px;
+}
+.img1
+{
+    margin-left: 10px;
+}
+.binancepay
+{
+    width: 336px;
+    height: 217px;
+}
+.binanceearn
+{
+    width: 336px;
+    height: 217px;
+}
+.binanceearntag
+{
+    margin-top: 80px;
+}
+.rowdiv
+{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.row2
+{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+.planbtn
+{
+    margin-top: 5%;
+}
+.p
+{
+    font-size: 22px;
 }
